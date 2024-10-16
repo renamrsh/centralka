@@ -1,0 +1,7 @@
+{"menu":[
+	{"url":"lighting.html?groupID=1", "name":"<i class='fa fa-lightbulb-o yellow'></i>Oświetlenie", "active": 1},
+	{"url":"#", "name":"<i class='fa fa-plug orange'></i>Zasilanie", "active": 1},
+	{"url":"temperature.html", "name":"<i class='fa fa-thermometer-empty red'></i>Temperatura", "active": 1},
+	{"url":"#", "name":"<i class='fa fa-tint blue'></i>Zraszacze"},
+	{"url":"#", "name":"<i class='fa fa-cogs light-blue'></i>Ustawienia", "active": 1}
+]}
