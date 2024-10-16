@@ -2,6 +2,8 @@
 @import "font-awesome";
 
 .bottom-bar{
+    position: absolute;
+    width: 100%;
     bottom: 0;
     background-color: rgb(121, 201, 121);
 }
