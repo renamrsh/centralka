@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </head>
-
 <body>
     <main>
-        <div clss="top-bar">
-        </div>
+        <div class="top-bar"></div>
 
         <div id="sidebar" class="sidebar-closed">
-            <div class="sidebar-content">
-                <p>content</p>
-            </div>
+            <div class="sidebar-menu"></div>
         </div>
 
         <section class="content">
             <div class="container-fluid">
-                <p>content</p>
+                <div id="main-content">
+                    <p>content</p>
+                </div>
             </div>
         </section>
 
@@ -36,15 +34,14 @@
                         <a class="fa fa-home fa-2x" style="color: white;"></a>
                     </div>
                     <div class="col-12 col-md-4 text-center">
-                        <a class="fa fa-refresh fa-2x" style="color: white;"></a>
+                        <a id="refresh" class="fa fa-refresh fa-2x" style="color: white;"></a>
                     </div>
                     <div class="col-12 col-md-4 text-center">
-                        <a class="fa fa-bars fa-2x " style="color: white;"></a>
+                        <a class="fa fa-bars fa-2x" style="color: white;"></a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 </body>
-
 </html>
