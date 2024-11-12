@@ -28,7 +28,7 @@ function toggleSidebar() {
 }
 
 function createMenu() {
-    $.getJSON('assets/js/menu.json', function(json) {
+    $.getJSON('menu.json', function(json) {
         var menu = json.menu;
         var htmlMenu = '';
         for (var i = 0; i < menu.length; i++) {
