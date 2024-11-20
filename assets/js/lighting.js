@@ -1,9 +1,10 @@
 $('#lighting').on('click', '.change', function(){
     //$('#txt').text('Zmieniono');
+    var form =$('#form');
     $.ajax({
         url: 'ajax.php',
         type: 'POST',
-        data: {'user':'test'},
+        data: form.serialize(),
         beforeSend:function(){
             console.log('start');
         },
