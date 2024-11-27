@@ -1,8 +1,9 @@
-$('#lighting').on('click', '.change', function(){
+$('#lighting').delegate('form', 'submit', function (e) {
+    e.preventDefault();
     //$('#txt').text('Zmieniono');
-    var form =$('#form');
+    var form =$(this);
     $.ajax({
-        url: 'ajax.php',
+        url: 'server.php',
         type: 'POST',
         data: form.serialize(),
         beforeSend:function(){
