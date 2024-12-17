@@ -14,6 +14,8 @@ $('#lighting').delegate('form', 'submit', function (e) {
         },
         success:function(response){
             $('p').text(response);
+            var json = $.parseJSON(response);
+			console.log(json);
         },
         error:function(){}
     });

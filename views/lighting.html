@@ -1,16 +1,21 @@
+<h2>Strona z oświetleniem</h2>
 <div id="lighting">
-    <h1>Oświetlenie</h1>
-    <br/><br/>
-    <p id="txt">Tekst</p>
-    <br/><br/>
-    <button class="change">Zamień</button>
-    <form id="form">
-        <input name="jsonFile" type="hidden">
-        <input id="id" name="id" type="hidden">
-        <input id="name" name="name" type="text">
-        <input id="status" name="status"  placeholder="status" type="text">
-        <input type="submit">
-
-    </form>
+	<p>Oświetlenie</p>
+	<br/><br/>
+	<form class="ajaxform">
+		<input type="hidden" name="jsonFile" value="lighting"/>
+		<input type="hidden" name="id" value="1"/>
+		<div>
+			<input type="text" name="switchName" value="" placeholder="Nazwa przełącznika"/>
+		</div>
+		<br/>
+		<div>
+			<input type="text" name="status" value="" placeholder="Status (on | off)"/>
+		</div>
+		<br/>
+		<div>
+			<button class="btn btn-success" type="submit">Zapisz</button>
+		</div>
+	</form>
 </div>
 <script src="assets/js/lighting.js"></script>
